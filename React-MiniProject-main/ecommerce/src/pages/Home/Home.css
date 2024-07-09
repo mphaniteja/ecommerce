@@ -1,0 +1,12 @@
+
+.top-picks{
+    display:flex;
+    flex-direction:column;
+    text-align:left;
+}
+.top-picks h2{
+    color:rgb(83, 20, 20);
+    font-weight: 600;
+    font-size:200%;
+    text-align: center;
+}

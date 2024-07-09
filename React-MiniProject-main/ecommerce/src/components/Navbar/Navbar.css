@@ -1,0 +1,132 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+}
+
+.navbar-content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    gap:100px;
+
+}
+.navbar .logo{
+    width:50px;
+}
+
+.navbar-menu{
+    display:flex;
+    list-style:none;
+    gap:20px;
+    color:rgb(112, 4, 4);
+    font-size:18px;
+}
+.navbar-right{
+    display:flex;
+    align-items:center;
+    gap:40px;
+}
+.navbar-center{
+    padding-top:20px;
+}
+
+.navbar button{
+    font-size:15px;
+    width:100px;
+    background:rgb(112, 4, 4);
+    border:1 px solid beige;
+    color:white;
+    padding:10px;
+    border-radius: 15px;
+    cursor:pointer;
+}
+
+.navbar button:hover{
+    color:rgb(253, 157, 3);
+    background-color: beige;
+}
+
+.navbar a:hover{
+    cursor:pointer;
+    color:rgb(253, 157, 3);
+}
+
+.navbar-cart-icon{
+    position:relative;
+    padding-top: 5px;
+}
+
+.navbar-cart-icon .dot{
+    position:absolute;
+    min-width:10px;
+    min-height:10px;
+    background-color: rgb(234, 199, 4);
+    border-radius:5px;
+    top:-3px;
+    right:-3px;
+}
+
+.navbar-profile{
+    position: relative;
+    padding-top: 8px;
+}
+.nav-profile-dropdown{
+    position:absolute;
+    display:none;
+    right:0;
+    z-index:1;
+}
+.navbar-profile:hover .nav-profile-dropdown{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    background-color: #fefdfb;
+    padding:10px 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(253, 230, 230);
+    outline:2px solid white;
+    list-style:none;
+
+}
+.nav-profile-dropdown li{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    cursor:pointer;
+}
+.nav-profile-dropdown img{
+    width:20px;
+}
+.nav-profile-dropdown li:hover{
+    color:red;
+}
+.navbar-left {
+    position: relative;
+    display: inline-block;
+  }
+  
+.navbar-left .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+  
+.navbar-left .text {
+    color: goldenrod; /* Text color */
+    font-size: 20px;
+    text-align: center;
+    padding-left: 40px;
+}
+
+
+
+
+  

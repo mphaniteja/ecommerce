@@ -1,0 +1,27 @@
+
+.list-table-format{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items:center;
+    gap:10px;
+    padding: 10px 15px;
+    border:1px solid #cacaca;
+    font-size:15px;
+}
+
+.list-table-format.title{
+    background-color: rgb(253, 217, 170);
+}
+.list-table-format img{
+    border-radius: 5px;
+    margin-left: 60px;
+}
+.nameofpro{
+    margin-left: 80px;
+}
+.nameofcat{
+    margin-left: 50px;
+}
+.nameofprice{
+    margin-left: 30px;
+}

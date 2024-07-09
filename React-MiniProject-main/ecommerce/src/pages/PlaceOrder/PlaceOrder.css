@@ -1,0 +1,45 @@
+.place-order{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap:50px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.place-order-left{
+    width:100%;
+    max-width: max(50%,500px);
+}
+.place-order-left-title{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.form-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.place-order-left label {
+    width: 80px; /* Set a fixed width for the labels */
+    text-align: left;
+    display: inline-block;
+}
+.place-order-left input{
+    margin-bottom:15px;
+    width:100%;
+    padding:10px;
+    border: 1px solid rgb(143, 143, 143);
+    border-radius: 10px;
+    outline-color: rgb(4, 78, 198);
+    flex: 1;
+}
+.place-order-right{
+    width:70%;
+    max-width: max(50%,500px);
+}
+.place-order .cart-total button{
+    margin:30px;
+}
+
